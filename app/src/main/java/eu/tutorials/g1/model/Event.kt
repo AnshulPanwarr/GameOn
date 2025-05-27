@@ -7,11 +7,11 @@ data class Event(
     val sportId: String = "",
     val venueId: String = "",
     val date: Long = 0,
-    val startTime: String = "", // Format: "HH:mm"
-    val endTime: String = "",   // Format: "HH:mm"
+    val startTime: String = "", 
+    val endTime: String = "",  
     val maxParticipants: Int = 0,
     val currentParticipants: Int = 0,
-    val participants: List<String> = emptyList(), // List of user IDs
+    val participants: List<String> = emptyList(), 
     val organizerId: String = "",
     val price: Double = 0.0,
     val skillLevel: SkillLevel = SkillLevel.ALL,
@@ -38,8 +38,8 @@ enum class EventStatus {
 }
 
 enum class EventType {
-    CASUAL,     // Friendly matches
-    TOURNAMENT, // Competitive tournaments
-    TRAINING,   // Practice sessions
-    LEAGUE      // Regular league matches
+    CASUAL,     
+    TOURNAMENT, 
+    TRAINING,   
+    LEAGUE      
 } 
