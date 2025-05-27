@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="eu.tutorials.g1">
+    package="">
 
     <!-- Internet permissions -->
     <uses-feature
@@ -41,13 +41,13 @@
         <!-- Google Maps API Key -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC4Zg0i6SaHaCh-DYKrMp7PI135nESkNiE" />
+            android:value="" />
             
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.G1"
+            android:label="@string/"
+            android:theme="@style/"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
